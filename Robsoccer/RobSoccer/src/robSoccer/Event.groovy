@@ -1,0 +1,5 @@
+package robSoccer
+
+class Event {
+
+}
