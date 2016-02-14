@@ -34,7 +34,7 @@ def spiderInfo(name,limit):
             dict['location']=content['location']
             dict['name']= content['name']
             dict['screen_name']=content['screen_name']
-            print dict['name']
+#            print dict['name']
             dict['lang']=content['lang']
             dict['friends_count']=content['friends_count']
             dict['time_zone']= content['time_zone']
@@ -58,4 +58,4 @@ def encodeImage(url):
     return encoded
     
 
-print len(spiderInfo('ryan',200))   
+#print len(spiderInfo('ryan',200))   
